@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="16dp"
+    android:background="@color/my_color">
+
+    <TextView
+        android:id="@+id/tv_name_user"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:textSize="18sp"
+        android:layout_marginTop="32dp"
+        android:paddingLeft="4dp"
+        android:gravity="center"
+        android:textColor="@color/text_color"/>
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="128dp"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:textAllCaps="false"
+        android:background="@color/button_color"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/btn_sign_out"
+        android:layout_width="128dp"
+        android:layout_height="wrap_content"
+        android:text="SignOut"
+        android:textAllCaps="false"
+        android:background="@color/button_color"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"/>
+
+</LinearLayout>
